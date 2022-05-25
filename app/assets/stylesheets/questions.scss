@@ -1,0 +1,25 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.avatar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: black;
+  border-style: dotted;
+}
+
+.avatar p {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.shine:hover {
+  background-color: aquamarine;
+  transition: 0.5s;
+}
+
+.text-shine:hover {
+  color: rgb(251, 0, 0);
+  transition: 0.5s;
+}

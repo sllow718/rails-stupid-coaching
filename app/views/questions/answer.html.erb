@@ -1,0 +1,31 @@
+<div class="p-3">
+<h1>Coach Answer 🚀</h1>
+
+
+<div class="shine bg-light mw-50%">
+  <blockquote class="shine blockquote">
+    <p class="m-2"><%= @myresponse %></p>
+      <div class="d-flex flex-row">
+        <div class="avatar">
+          <%= image_tag 'pepe.png' %>
+        </div>
+      <p class="text-shine mt-1 p-1">You</p>
+    </div>
+  </blockquote>
+</div>
+
+<div class="shine bg-light mw-50%">
+  <blockquote class="shine blockquote">
+    <p class="m-2"><%= @response %></p>
+    <div class="d-flex flex-row">
+      <div class="avatar">
+        <%= image_tag 'coach.png' %>
+      </div>
+      <p class="text-shine mt-1 p-1">Coach</p>
+    </div>
+  </blockquote>
+</div>
+
+<a href="/ask" ><button class="btn btn-primary">Back</button></a>
+
+</div>
